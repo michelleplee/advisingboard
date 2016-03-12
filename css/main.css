@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    width: 1920px;
+    height: 1080px;
+    
+}
+
+nav {
+    position: fixed;
+    font-size: 20px;
+    bottom: 20px;
+  padding-left: 20px;
+    height: 50px;
+    background-color: #002855;
+     box-shadow: 5px 5px 1px lightblue;
+}
+
+nav li {
+    width: 250px;
+    text-align: center;
+    margin-right: 20px;
+    float: left;
+    list-style-type: none;
+    color: white;
+        text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+
+a:link{
+ text-decoration: none;
+color:white;
+    
+}
+
+
+a:visited {
+     text-decoration: none;
+    color: white;
+    
+}
+
+nav li:hover{
+    background-color: white;
+}
+
+nav a:hover {
+    
+    color: #C99700}
+
+
+section{
+    float:left;
+    width: 250px;
+    margin-right:20px;
+    height: 1080px;
+}
+
+
+
+
+
+#column1Image{
+height: 700px;
+}
+
+#column2Image, #column3Image {
+    height: 780px;
+}
+
+#column1Image {
+    background-image: url(../images/pre-vet-images-01.png);
+    background-size:250px;
+}
+ 
+
+#column2Image {
+    background-image: url(../images/pre-vet-images-02.png);
+    background-size:250px;
+}
+
+#column3Image {
+    background-image: url(../images/pre-vet-images-03.png);
+    background-size:250px;
+}
+
+
+
+/*------ COLUMN 1 CSS HERE -----*/ 
+#column1 {
+  //background-color: lightgrey;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+#generalButton, #clubsButton {
+ position: absolute;
+ color:white;
+    font-size: 20px;
+}
+
+#generalButton {
+ bottom: 180px;   
+    background-color:  #ED8B00;
+    padding: 30px 150px 0px 10px;
+       
+}
+
+#clubsButton {
+    bottom: 100px;
+    background-color: lightgrey;
+     padding: 30px 180px 0px 10px;
+    
+}
+
+
+
+
+#sectiontitle{
+    position: absolute;
+    bottom: 250px;
+    width: 250px;
+    text-align: center;
+    background-color:white;
+   
+    
+
+}
+
+.blueItalic {
+    font-size: 20px;
+    color: #002855;
+    font-style: italic;
+}
+
+.goldBold {
+    font-size: 30px;
+    color:  #C99700;
+    font-weight: 800;
+}
+
+
+
+
+/*----- COLUMN 2 CSS HERE ----- */
+
+#column2 {
+    
+    // background-color: lightgrey;
+}
+
+
+#column2 ul {
+ list-style-type: none;
+    position: absolute;
+   bottom: 100px; 
+}
+
+#column2 ul li{
+padding: 5px 220px 0px 30px;
+margin-bottom: 10px;   
+background-color: white;
+
+}
+
+#column2 ul li:hover{
+    background-color: #EDC684;
+}
+
+
+#column2 ul li:nth-child(1){
+    background-color: #ED8B00;
+    font-size: 30px;
+    color:white;
+   
+    
+}
+
+#column2 ul li:nth-child(2){
+    color: dimgrey;
+    padding-left: 50px;
+    margin-top: -15px;
+}
+
+#column2 ul li:nth-child(6){
+ margin-bottom: 0px;   
+}
+
+
+
+
+
+
+/*----- COLUMN 3 CSS HERE ----- */
+
+#column3 {
+    
+     // background-color: lightgrey;
+}
+
+
+
+/*----- COLUMN 4 CSS HERE ----- */
+#column4 {
+    
+  //background-color: lightgrey;
+}
+
+.swfObject {
+    margin-top: 40px;
+    margin-left: 20px;
+    overflow:hidden;
+    height:918px;
+    width:738px;
+    
+color:white;
+}
+
+/*----- COLUMN 5 CSS HERE ----- */
+#column5{
+      //background-color: lightgrey;
+    
+}
+
+
+
+
+/*----- COLUMN 6 CSS HERE ----- */
+#column6{
+    
+     //background-color: lightgrey;
+}
+
+
+
+
+/*----- COLUMN 7 CSS HERE ----- */
+
+
+
+#column7Image {
+    height:1000px;
+    background-image: url(../images/infoColumn.svg);
+    background-repeat: no-repeat;
+    background-size:280px 1080px;
+ 
+    
+}
+
+
+
