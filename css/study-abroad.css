@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: futura, sans-serif;
+    width: 1920px;
+    height: 1080px;
+}
+
+nav {
+    position: fixed;
+    font-size: 20px;
+    bottom: 20px;
+    padding-left: 20px;
+    height: 50px;
+    background-color: #002855;
+    box-shadow: 5px 5px 1px lightblue;
+}
+
+nav li {
+    width: 250px;
+    text-align: center;
+    margin-right: 20px;
+    float: left;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav li:nth-child(3),
+nav li:nth-child(3) a {
+    background-color: white;
+    color: #C99700;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+nav li:hover {
+    background-color: white;
+}
+
+nav a:hover {
+    color: #C99700
+}
+
+section {
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+    height: 1080px;
+}
+
+#column1Image {
+    height: 700px;
+    //margin-top: -500px;
+    //opacity: 0;
+}
+
+#column2Image {
+    height: 320px;
+    // margin-top: -500px;
+    // opacity: 0;
+}
+
+#column3Image {
+    width: 1080px;
+    height: 980px;
+    visibility: visible;
+}
+
+#column1Image {
+    background-image: url(../images/studyabroad-pic-22.png);
+    background-size: 250px;
+}
+
+#column2Image {
+    background-image: url(../images/studyabroad-pic-23.png);
+    background-size: 250px;
+}
+
+#column3Image {
+    background-image: url(../images/studyabroad-pic-24.png);
+    background-size: 1080px 1005px;
+}
+
+
+/*------ COLUMN 1 CSS HERE -----*/
+
+#column1 {
+    //background-color: lightgrey;
+    margin-left: 20px;
+}
+
+#uceapButton,
+#summerButton,
+#otherButton {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    //bottom: 0px;
+    //opacity: 0;
+    width: 90px;
+    padding: 30px 150px 0px 10px;
+}
+
+#uceapButton {
+    background-color: #BA0C2F;
+    bottom: 240px;
+}
+
+#summerButton {
+    background-color: Grey;
+    bottom: 170px;
+}
+
+#otherButton {
+    bottom: 100px;
+    background-color: Grey;
+}
+
+#sectiontitle {
+    position: absolute;
+    //bottom: 0px;
+    bottom: 300px;
+    width: 250px;
+    //opacity: 0;
+    text-align: center;
+    background-color: white;
+}
+
+.blueItalic {
+    font-size: 20px;
+    color: #002855;
+    font-style: italic;
+}
+
+.goldBold {
+    font-size: 30px;
+    color: #C99700;
+    font-weight: 800;
+}
+
+
+/*----- COLUMN 2 CSS HERE ----- */
+
+#secondaryUl {
+    // opacity: 0;
+    list-style-type: none;
+    position: absolute;
+    bottom: 100px;
+    font-size: 20px;
+}
+
+#secondaryUl li {
+    padding: 31px 70px 0px 30px;
+    margin-bottom: 15px;
+    background-color: grey;
+    color: white;
+}
+
+#secondaryUl li:hover {
+    background-color: #BA0C2F;
+}
+
+#secondaryUl li:first-child {
+    background-color: #BA0C2F;
+}
+
+#secondaryUl li:last-child {
+    margin-bottom: 0px;
+}
+
+
+/*----- COLUMN 3 CSS HERE ----- */
+
+#column3 {
+    // background-color: lightgrey;
+}
+
+#countryName,
+#universityName,
+#countryDescription {
+    position: absolute;
+}
+
+#countryName {
+    top: 80px;
+    font-size: 20px;
+    background-color: #BA0C2F;
+    color: white;
+    padding: 30px 250px 0px 60px;
+}
+
+#universityName {
+    color: white;
+    font-size: 32px;
+    top: 150px;
+    margin-left: 60px;
+}
+
+#countryDescription {
+    color: black;
+    width: 600px;
+    line-height: 50px;
+    font-size: 32px;
+    top: 300px;
+    margin-left: 260px;
+}
+
+
+
+
+#africaUl,
+#australiaUl,
+#chinaUl,
+#denmarkUl,
+#irelandUl,
+#newZealandUl,
+#scotlandUl,
+#southKoreaUl,
+#faqUl,
+#tertiaryTitle {
+    position: absolute;
+    visibility: hidden;
+    bottom: 100px;
+    list-style-type: none;
+}
+
+#africaUl,
+#australiaUl,
+#chinaUl,
+#denmarkUl,
+#irelandUl,
+#newZealandUl,
+#scotlandUl,
+#southKoreaUl,
+#faqUl {
+    width: 220px;
+    
+    padding-left: 30px;
+}
+
+#column3 li {
+    margin-top: 5px;
+}
+
+#column3 .universitySub{
+ color: #BA0C2F;
+    margin-left: -30px;
+}
+
+/*----- COLUMN 4 CSS HERE ----- */
+
+#column4 {
+    //background-color: lightgrey;
+}
+
+
+/*----- COLUMN 5 CSS HERE ----- */
+
+#column5 {
+    //background-color: lightgrey;
+}
+
+
+/*----- COLUMN 6 CSS HERE ----- */
+
+#column6 {
+    //background-color: lightgrey;
+}
+
+#clickContinueAfrica,
+#clickContinueAustralia,
+#clickContinueChina,
+#clickContinueDenmark,
+#clickContinueIreland,
+#clickContinueNewZealand,
+#clickContinueScotland,
+#clickContinueSouthKorea,
+#clickContinueFAQ {
+    position: absolute;
+    bottom: 150px;
+    margin-left: -40px;
+    background-color: #BA0C2F;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    visibility: hidden;
+}
+
+
+/*----- COLUMN 7 CSS HERE ----- */
+
+#column7Image {
+    height: 1000px;
+    background-image: url(../images/infoColumn.svg);
+    background-repeat: no-repeat;
+    background-size: 280px 1080px;
+}
+
+embed {
+    visibility: hidden;
+    position: absolute;
+    height: 980px;
+    margin-top: 15px;
+    width: 800px;
+}
+
+
+#column2 #summerUl,
+#column2 #otherUl {
+    visibility: hidden;
+    list-style-type: none;
+    color: black;
+    position: absolute;
+    bottom: 100px;
+}
+
+#summerUl li,
+#otherUl li {
+    margin-top: 5px;
+    width: 490px;
+    background-color: white;
+    padding-left: 30px;
+}
+
+#column2 #summerUl li:last-child {
+    margin-bottom: 0px;
+}
+
+#summerTitle,
+#otherTitle {
+    visibility: hidden;
+    position: absolute;
+    padding: 20px 0px 0px 30px;
+    font-size: 20px;
+    
+    background-color: #BA0C2F;
+    color:white;
+    
+    width: 490px;
+    
+    bottom: 210px;
+    
+}
+

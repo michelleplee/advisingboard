@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: futura, sans-serif;
+    width: 1920px;
+    height: 1080px;
+    
+}
+
+nav {
+    position: fixed;
+    font-size: 20px;
+    bottom: 20px;
+  padding-left: 20px;
+    height: 50px;
+    background-color: #002855;
+     box-shadow: 5px 5px 1px lightblue;
+    visibility: hidden;
+}
+
+nav li {
+    width: 250px;
+    text-align: center;
+    margin-right: 20px;
+    float: left;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+nav li:nth-child(4), nav li:nth-child(4) a{
+ background-color:white;
+    color: #C99700;
+}
+
+a:link{
+ text-decoration: none;
+color:white;
+    
+}
+
+
+a:visited {
+     text-decoration: none;
+    color: white;
+    
+}
+
+nav li:hover{
+    background-color: white;
+}
+
+nav a:hover {
+    color: #C99700
+}
+
+
+section{
+    float:left;
+    width: 250px;
+    margin-right:20px;
+    height: 1080px;
+}
+
+
+
+
+
+/*courses, internships and careers, study abroad, pre veterinary, handouts, people and places*/
+
+#column1Image, #column2Image, #column3Image, #column4Image, #column5Image, #column6Image{
+height: 1080px;
+
+}
+
+
+
+#column1Image {
+    background-image: url(../intro-pics/intro-01.png);
+    background-size: 250px;
+    
+}
+ 
+
+#column2Image {
+    background-image: url(../intro-pics/intro-02.png);
+  background-size: 250px;
+}
+
+#column3Image {
+    background-image: url(../intro-pics/intro-03.png);
+    background-size: 250px;
+}
+
+#column4Image {
+    background-image: url(../intro-pics/intro-04.png);
+ background-size: 250px;
+}
+ 
+
+#column5Image {
+    background-image: url(../intro-pics/intro-05.png);
+ background-size: 250px;
+}
+
+#column6Image {
+    background-image: url(../intro-pics/intro-06.png);
+background-size: 250px;
+}
+
+
+/*------ COLUMN 1 CSS HERE -----*/ 
+#column1{
+  //background-color: lightgrey;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+#column7Image {
+    height:1000px;
+    background-image: url(../images/infoColumn.svg);
+    background-repeat: no-repeat;
+    background-size:280px 1080px;
+ 
+    
+}
+
+
+#introNav {
+ position: absolute;
+ top: 70%;
+    
+}
+
+#introNav li{
+    text-align: center;
+    float: left;
+    width: 250px;
+    list-style-type: none;
+     margin-left: 20px; 
+    padding: 20px 0px 20px 0px;
+    background-color: #002855;
+    color: white;
+}
+
+#introNav li:first-child{
+  
+}
