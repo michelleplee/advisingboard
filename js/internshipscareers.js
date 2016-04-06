@@ -226,16 +226,25 @@ $(function() {
           
   });
     
-                $('#internshipsButton').click(function() {
-          
-             resetImage();
+    $('#internshipsButton').click(function() {
+                resetImage();
      $('#internshipsButton').css('backgroundColor', '#9CAF88'); 
           $('#careersButton').css('backgroundColor',
-                               'grey');
-        
+                               'grey');        
                     resetColors();
 $('#careersUl').css('visibility','hidden');
                     $('#internshipsUl').css('visibility','visible');
+         
+  });
+    
+    $('#careersButton').click(function() {
+                resetImage();
+     $('#careersButton').css('backgroundColor', '#9CAF88'); 
+          $('#internshipsButton').css('backgroundColor',
+                               'grey');        
+                    resetColors();
+$('#internshipsUl').css('visibility','hidden');
+                    $('#careersUl').css('visibility','visible');
          
   });
 

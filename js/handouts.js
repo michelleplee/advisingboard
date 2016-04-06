@@ -1,3 +1,4 @@
+
 $(function() {
 
   //send a message to the console window to check 
@@ -391,6 +392,29 @@ $(function() {
           
   });
     
+    $('#aeeButton').click(function() {
+          
+             resetImage();
+     $('#aeeButton').css('backgroundColor', '#C26E60'); 
+          $('#anmButton').css('backgroundColor',
+                               'grey');
+         $('#ansButton').css('backgroundColor',
+                               'grey');
+        $('#miscButton').css('backgroundColor',
+                               'grey');
+        $('#preprofButton').css('backgroundColor',
+                               'grey');
+        $('#prevetButton').css('backgroundColor',
+                               'grey');
+                    resetColors();
+        $('#aeeUl').css('visibility', 'visible');
+        $('#anmUl').css('visibility','hidden');
+        $('#ansUl').css('visibility','hidden'); 
+        $('#miscUl').css('visibility','hidden');
+        $('#preprofUl').css('visibility','hidden');
+        $('#prevetUl').css('visibility','hidden');
+  });
+    
     $('#anmButton').click(function() {
           
              resetImage();
@@ -399,73 +423,113 @@ $(function() {
                                'grey');
          $('#ansButton').css('backgroundColor',
                                'grey');
+        $('#miscButton').css('backgroundColor',
+                               'grey');
         $('#preprofButton').css('backgroundColor',
                                'grey');
         $('#prevetButton').css('backgroundColor',
                                'grey');
                     resetColors();
-$('#aeeUl').css('visibility','hidden');
-$('#anmUl').css('visibility','visible');
-$('#ansUl').css('visibility','hidden'); 
-$('#preprofUl').css('visibility','hidden'); $('#prevetUl').css('visibility','hidden');
-    });
-      
+        $('#anmUl').css('visibility', 'visible');
+        $('#aeeUl').css('visibility','hidden');
+        $('#ansUl').css('visibility','hidden'); 
+        $('#miscUl').css('visibility','hidden');
+        $('#preprofUl').css('visibility','hidden');
+        $('#prevetUl').css('visibility','hidden');
+  });
+    
     $('#ansButton').click(function() {
           
              resetImage();
      $('#ansButton').css('backgroundColor', '#C26E60'); 
-          $('#aeeButton').css('backgroundColor',
+          $('#anmButton').css('backgroundColor',
                                'grey');
-         $('#anmButton').css('backgroundColor',
+         $('#aeeButton').css('backgroundColor',
+                               'grey');
+        $('#miscButton').css('backgroundColor',
                                'grey');
         $('#preprofButton').css('backgroundColor',
                                'grey');
         $('#prevetButton').css('backgroundColor',
                                'grey');
                     resetColors();
-$('#aeeUl').css('visibility','hidden');
-$('#anmUl').css('visibility','visible');
-$('#ansUl').css('visibility','hidden'); 
-$('#preprofUl').css('visibility','hidden'); $('#prevetUl').css('visibility','hidden'); 
+        $('#ansUl').css('visibility', 'visible');
+        $('#anmUl').css('visibility','hidden');
+        $('#aeeUl').css('visibility','hidden'); 
+        $('#miscUl').css('visibility','hidden');
+        $('#preprofUl').css('visibility','hidden');
+        $('#prevetUl').css('visibility','hidden');
   });
-
-       $('#preprofButton').click(function() {
+    
+    $('#miscButton').click(function() {
           
              resetImage();
-     $('#preprofButton').css('backgroundColor', '#C26E60'); 
-          $('#aeeButton').css('backgroundColor',
+     $('#miscButton').css('backgroundColor', '#C26E60'); 
+          $('#anmButton').css('backgroundColor',
                                'grey');
-         $('#anmButton').css('backgroundColor',
+         $('#ansButton').css('backgroundColor',
                                'grey');
-        $('#ansButton').css('backgroundColor',
+        $('#aeeButton').css('backgroundColor',
+                               'grey');
+        $('#preprofButton').css('backgroundColor',
                                'grey');
         $('#prevetButton').css('backgroundColor',
                                'grey');
                     resetColors();
-$('#aeeUl').css('visibility','hidden');
-$('#anmUl').css('visibility','visible');
-$('#ansUl').css('visibility','hidden'); 
-$('#preprofUl').css('visibility','hidden'); $('#prevetUl').css('visibility','hidden'); 
+        $('#miscUl').css('visibility', 'visible');
+        $('#anmUl').css('visibility','hidden');
+        $('#ansUl').css('visibility','hidden'); 
+        $('#aeeUl').css('visibility','hidden');
+        $('#preprofUl').css('visibility','hidden');
+        $('#prevetUl').css('visibility','hidden');
+  });
+    
+    $('#preprofButton').click(function() {
+          
+             resetImage();
+     $('#preprofButton').css('backgroundColor', '#C26E60'); 
+          $('#anmButton').css('backgroundColor',
+                               'grey');
+         $('#ansButton').css('backgroundColor',
+                               'grey');
+        $('#miscButton').css('backgroundColor',
+                               'grey');
+        $('#aeeButton').css('backgroundColor',
+                               'grey');
+        $('#prevetButton').css('backgroundColor',
+                               'grey');
+                    resetColors();
+        $('#preprofUl').css('visibility', 'visible');
+        $('#anmUl').css('visibility','hidden');
+        $('#ansUl').css('visibility','hidden'); 
+        $('#miscUl').css('visibility','hidden');
+        $('#aeeUl').css('visibility','hidden');
+        $('#prevetUl').css('visibility','hidden');
   });
     
     $('#prevetButton').click(function() {
           
              resetImage();
      $('#prevetButton').css('backgroundColor', '#C26E60'); 
-          $('#aeeButton').css('backgroundColor',
+          $('#anmButton').css('backgroundColor',
                                'grey');
-         $('#anmButton').css('backgroundColor',
+         $('#ansButton').css('backgroundColor',
+                               'grey');
+        $('#miscButton').css('backgroundColor',
                                'grey');
         $('#preprofButton').css('backgroundColor',
                                'grey');
-        $('#ansButton').css('backgroundColor',
+        $('#aeeButton').css('backgroundColor',
                                'grey');
                     resetColors();
-$('#aeeUl').css('visibility','hidden');
-$('#anmUl').css('visibility','visible');
-$('#ansUl').css('visibility','hidden'); 
-$('#preprofUl').css('visibility','hidden'); $('#prevetUl').css('visibility','hidden'); 
+        $('#prevetUl').css('visibility', 'visible');
+        $('#anmUl').css('visibility','hidden');
+        $('#ansUl').css('visibility','hidden'); 
+        $('#miscUl').css('visibility','hidden');
+        $('#preprofUl').css('visibility','hidden');
+        $('#aeeUl').css('visibility','hidden');
   });
+
     
     function resetColors(){
         console.log("resetting colors");
