@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Futura STD", sans-serif;
+    width: 1920px;
+    height: 1080px;
+}
+
+nav {
+    position: fixed;
+    font-size: 20px;
+    bottom: 20px;
+    padding-left: 20px;
+    height: 50px;
+    background-color: #002855;
+
+}
+
+nav li {
+    width: 250px;
+    text-align: center;
+    margin-right: 20px;
+    float: left;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+
+nav li:nth-child(2){
+
+    font-size: 18px
+    
+}
+nav li:nth-child(6),
+nav li:nth-child(6) a {
+    background-color: white;
+    color: #C99700;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+nav li:hover {
+    background-color: white;
+}
+
+nav a:hover {
+    color: #C99700
+}
+
+section {
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+    height: 1080px;
+}
+
+#column1Image {
+    height: 750px;
+    margin-top: -700px;
+    opacity: 0;
+
+}
+
+#column2Image{
+    height: 0px;
+   margin-top: -700px;
+    opacity: 0;
+}
+
+#column1Image {
+    background-image: url(../images/people-pics-01.png);
+    background-size: 250px;
+}
+
+#column2Image {
+    background-image: url(../images/people-pics-02.png);
+    background-size: 250px;
+}
+
+/*------ COLUMN 1 CSS HERE -----*/
+
+#column1 {
+    //background-color: lightgrey;
+    margin-left: 20px;
+}
+
+#generalButton, #advisingButton, #facultyButton, #facilitiesButton {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    width: 210px;
+    background-color: #002855;
+    /*light blue*/
+    padding: 30px 30px 0px 10px;
+}
+
+
+#generalButton {
+ bottom: 310px;
+max-width: 250px;
+    
+}
+
+#advisingButton {
+    bottom: 240px;
+    max-width: 250px;
+    background-color: grey;
+}
+
+#facultyButton {
+    bottom: 170px;
+    max-width: 250px;
+    background-color: grey;
+}
+
+#facilitiesButton {
+    color: white;
+    bottom: 100px;
+    background-color: grey;
+}
+
+#sectiontitle {
+    position: absolute;
+    margin-top: 10px;
+    width: 250px;
+    text-align: center;
+    background-color: white;
+    opacity: 1;
+}
+
+.blueItalic {
+    font-size: 20px;
+    color: #002855;
+    font-style: italic;
+}
+
+.goldBold {
+    font-size:31px;
+    color: #C99700;
+    font-weight: 600;
+}
+
+#column2 #facultyA, #column2 #facultyB {
+  position: absolute;
+    color: white;
+    font-size: 20px;
+    width: 210px;
+    background-color: grey;
+    /*light blue*/
+    padding: 30px 30px 0px 10px;
+    bottom: 100px;
+
+}
+
+#column2 #facultyA{
+    visibility: hidden;
+}
+
+#column2 #facultyB{
+    visibility: hidden;
+    }
+/*----- COLUMN 2 CSS HERE ----- */
+
+#column2 #secondaryHeader {
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    margin-top: 15px;
+    
+    visibility: hidden;
+  
+
+}
+
+#secondaryHeader h3 {
+    padding: 20px 0px 0px 10px;
+    background-color: #002855;
+    font-size: 32px;
+    color: white;
+}
+
+#secondaryHeader p {
+    padding-left: 25px;
+    color: grey;
+}
+
+#column2 ul {
+    list-style-type: none;
+    position: absolute;
+    bottom: 100px;
+   
+}
+
+#column2 ul li {
+    padding: 5px 10px 0px 30px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+#column2 ul .tertiaryTitle,
+#column2 ul .tertiaryTitle:hover {
+    color: #002855;
+    font-weight: 600;
+    padding-left: 10px;
+    background-color: white;
+}
+
+#column2 ul li:hover {
+    background-color: #94b8e3;
+}
+
+#column2 ul li:last-child {
+    margin-bottom: 0px;
+}
+
+
+/*----- COLUMNs 3 CSS HERE ----- */
+
+
+
+#meyerMap1{
+ width: 1050px;
+height: 650px;
+    position:absolute;
+    margin-top: 10px;
+    background:url('../images/secondfloor.png');
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+#meyerMap2{
+ width: 1050px;
+height: 650px;
+    position:absolute;
+    margin-top: 440px;
+  
+      background:url('../images/firstfloor.png');
+    background-repeat: no-repeat;
+}
+
+#facultyHere{
+    position:absolute;
+     background:url('../images/faculty-here.png');
+    width: 75px;
+    height: 75px;
+    background-size: 50px 75px;
+    background-repeat: no-repeat;
+    margin-left: 410px;
+    margin-top: 720px;
+}
+
+#facultyThere{
+    position:absolute;
+     background:url('../images/faculty-there.png');
+    width: 75px;
+    height: 75px;
+    background-size: 50px 75px;
+    background-repeat: no-repeat;
+}
+
+
+
+#column3 {
+    // background-color: lightgrey;
+}
+
+.mapMarkersGold, .mapMarkersBlue {
+    position:absolute;
+    margin-top: -600px;
+    width:100px;
+    height: 90px;
+    visibility: visible;
+}
+
+
+#markerGold1, #markerBlue1 {
+    /*Meyer hall*/
+ margin-left: 1000px;
+    margin-top:-390px;
+}
+
+ #markerBlue2, #markerGold2 {
+       /*aquatic CABA*/
+margin-left: 240px;
+    margin-top: -200px;
+}
+
+#markerGold3,  #markerBlue3 {
+       /*beef barn*/
+margin-left: -10px;
+    margin-top: -220px;
+}
+
+#markerGold4, #markerBlue4 {
+       /*dairy*/
+margin-left: -10px;
+    margin-top: -400px;
+}
+
+#markerGold5, #markerBlue5 {
+       /*goat horse meat sheep*/
+margin-left: 950px;
+    margin-top: -350px;
+}
+
+#markerBlue6, #markerGold6{
+       /*small*/
+margin-left:950px;
+    margin-top:-300px;
+}
+
+#markerBlue7, #markerGold7{
+       /*swine*/
+margin-left: 100px;
+    margin-top:-450px;
+}
+
+
+#markerBlue1, #markerBlue2, #markerBlue3, #markerBlue4, #markerBlue5, #markerBlue6, #markerBlue7, #markerBlue8, #markerBlue9 {
+ visibility: hidden;
+}
+
+#markerBlue1{
+    visibility: hidden;
+}
+
+#markerGold1, #markerGold2, #markerGold3, #markerGold4, #markerGold5,#markerGold6, #markerGold7, #markerGold8, #markerGold9 {
+ visibility: hidden;
+}
+
+#markerGold1 {
+    visibility: hidden;
+    
+}
+
+
+#buildingImage{
+    background-image: url("../images/new-facility-images/meyer.png");
+    width: 510px;
+    height: 380px;
+    margin-top: 700px;
+    visibility: hidden;
+}
+
+
+#facilityMap{
+    position:absolute;
+ width: 1070px;
+    height: 430px;
+    margin-top: 225px;
+    background-image: url("../images/ansmap2.jpg");
+    visibility: hidden;
+}
+
+
+#mapHeader{
+    visibility: hidden;
+}
+/*----- COLUMN 4 CSS HERE ----- */
+
+#column4 {
+    //background-color: lightgrey;
+}
+
+
+/*----- COLUMN 5 CSS HERE ----- */
+
+#buildingDescription {
+    width: 460px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+    visibility: hidden;
+}
+
+#column5 {
+    //background-color: lightgrey;
+}
+
+#buildingHeader{
+    background-color: #002855;
+    color:white;
+    padding: 30px 30px 0px 30px;
+    width: 460px;
+    margin-top: 700px;
+    visibility: hidden;
+}
+
+
+/*----- COLUMN 6 CSS HERE ----- */
+
+#column6 {
+    //background-color: lightgrey;
+}
+
+
+#facultyName{
+    position:absolute;
+    margin-top: 850px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#facultyEmail{
+    position:absolute;
+      margin-top: 880px;
+    font-size: 20px;
+}
+
+
+#facultyOfficeNumber{
+    position:absolute;
+      margin-top: 910px;
+    font-size: 20px;
+    width: 250px;
+    
+}
+/*----- COLUMN 7 CSS HERE ----- */
+
+#column7Image {
+    height: 1000px;
+    background-image: url(../images/infoColumn.svg);
+    background-repeat: no-repeat;
+    background-size: 280px 1080px;
+}
+
+embed {
+    visibility: hidden;
+    position: absolute;
+    height: 1150px;
+    margin-top: 15px;
+    width: 800px;
+}
+
+.swfObject1,
+.swfObject2,
+.swfObject3,
+.swfObject4,
+.swfObject5,
+.swfObject6,
+.swfObject7,
+.swfObject8,
+.swfObject9,
+ {
+    position: absolute;
+    height: 1000px;
+    margin-top: 15px;
+    width: 800px;
+}
+
+#advising {
+  visibility: hidden;
+}
+
+#faculty1 {
+     margin-bottom: 80px;
+    visibility: hidden;
+}
+
+
+#faculty2 {
+    margin-bottom: 80px;
+    visibility: hidden;
+}
+
+#facilities {
+  visibility: hidden;
+}
