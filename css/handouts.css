@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: futura std, sans-serif;
+    width: 1920px;
+   
+    
+}
+
+nav {
+    position: fixed;
+    font-size: 20px;
+    bottom: 20px;
+  padding-left: 20px;
+    height: 50px;
+    background-color: #002855;
+}
+
+nav li {
+    width: 250px;
+    text-align: center;
+    margin-right: 20px;
+    float: left;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+nav li:nth-child(5), nav li:nth-child(5) a{
+ background-color:white;
+    color: #C99700;
+}
+
+
+nav li:nth-child(2){
+
+    font-size: 18px
+    
+}
+
+a:link{
+ text-decoration: none;
+color:white;
+    
+}
+
+
+a:visited {
+     text-decoration: none;
+    color: white;
+    
+}
+
+nav li:hover{
+    background-color: white;
+}
+
+nav a:hover {
+    color: #C99700
+}
+
+
+section{
+    float:left;
+    width: 250px;
+    margin-right:20px;
+        height: 1020px;
+}
+
+
+#column1Image{
+height: 490px;
+    margin-top: -1000px;
+    opacity:0;
+  
+}
+
+#column2Image, #column3Image {
+    height: 780px;
+  margin-top: -1000px;
+    opacity: 0;
+   
+}
+
+#column1Image {
+    background-image: url(../images/handouts-image-01.png);
+    background-size:250px;
+}
+ 
+
+#column2Image {
+    background-image: url(../images/handouts-image-02.png);
+    background-size:250px;
+}
+
+#column3Image {
+    background-image: url(../images/handouts-image-03.png);
+    background-size:250px;
+}
+
+
+
+/*------ COLUMN 1 CSS HERE -----*/ 
+#column1 {
+  //background-color: lightgrey;
+    margin-left: 20px;
+}
+
+
+
+#aeeButton, #anmButton, #ansButton, #miscButton, #preprofButton, #prevetButton {
+     position: absolute;
+ color:white;
+    font-size: 20px;
+    width: 210px;
+        opacity: 0;
+       
+    background-color:  #C26E60; /*coral*/
+    padding: 30px 30px 0px 10px;
+    
+}
+
+
+#aeeButton{
+    bottom: -450px;
+    max-width: 250px;
+
+}
+
+#anmButton{
+    bottom: -380px;
+    max-width: 250px;
+    background-color:grey;
+}
+
+#ansButton{
+    bottom: -310px;
+    max-width: 250px;
+    background-color:grey;
+}
+
+#miscButton{
+    bottom: -240px;
+    max-width: 250px;
+    background-color:grey;
+}
+
+#preprofButton{
+    bottom: -170px;
+    max-width: 250px;
+    background-color:grey;
+}
+
+#prevetButton{
+    bottom: -100px;
+    max-width: 250px;
+    background-color:grey;
+    
+}
+
+#sectiontitle{
+    position:absolute;
+    bottom: -510px;
+    margin-top:10px;
+    width: 250px;
+    text-align: center;
+    background-color:white;
+        opacity: 0;
+}
+
+.blueItalic {
+    font-size: 20px;
+    color: #002855;
+    font-style: italic;
+}
+
+.goldBold {
+    font-size: 30px;
+    color:  #C99700;
+    font-weight: 600;
+}
+
+
+
+
+/*----- COLUMN 2 CSS HERE ----- */
+#column2 #secondaryHeader {
+ position:absolute;
+    width: 520px;
+    height:80px;
+    margin-top: 15px;
+    //bottom: 0px;
+
+ 
+    
+}
+
+#secondaryHeader h3{
+    padding: 20px 0px 0px 10px;
+    background-color: #C26E60;
+    font-size: 32px;
+    color:white;
+
+}
+
+#secondaryHeader p{
+    padding-left: 25px;
+    color:grey;
+}
+
+
+
+#column2 ul {
+
+ list-style-type: none;
+    position: absolute;
+   bottom: -100px;
+    opacity: 0;
+}
+
+#column2 ul li{
+padding: 5px 80px 0px 30px;
+margin-bottom: 10px;   
+background-color: white;
+    width: 420px
+
+}
+
+#column2 ul .tertiaryTitle, #column2 ul .tertiaryTitle:hover{
+color:#C26E60;
+    font-weight: 600;
+    padding-left: 10px;
+    background-color:white;
+}
+
+#column2 ul li:hover{
+    background-color: #C26E60;
+}
+
+
+
+#column2 ul li:last-child{
+ margin-bottom: 0px;   
+}
+
+
+
+
+
+
+/*----- COLUMN 3 CSS HERE ----- */
+
+#column3 {
+    
+     // background-color: lightgrey;
+}
+
+
+
+/*----- COLUMN 4 CSS HERE ----- */
+#column4 {
+    
+  //background-color: lightgrey;
+}
+
+
+/*----- COLUMN 5 CSS HERE ----- */
+#column5{
+      //background-color: lightgrey;
+    
+}
+
+
+
+
+/*----- COLUMN 6 CSS HERE ----- */
+#column6{
+    
+     //background-color: lightgrey;
+}
+
+
+
+
+/*----- COLUMN 7 CSS HERE ----- */
+
+
+
+#column7Image {
+    height:1000px;
+    background-image: url(../images/infoColumn.svg);
+    background-repeat: no-repeat;
+    background-size:280px 1080px;
+ 
+    
+}
+
+
+#homeicon {
+    background-image: url(../images/menuicons-02.svg);
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+#bathroomicon {
+    background-image: url(../images/menuicons-01.svg);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-size: 100px 100px;
+    margin-top: -30px;
+    margin-left: 120px;
+}
+
+
+embed{
+ visibility: hidden;
+    position:absolute;
+      height: 950px;
+    margin-top: 15px;
+    width: 800px;
+}
+
+
+.swfObject1,
+.swfObject2,
+
+.swfObject2-1, .swfObject2-2, .swfObject2-3, .swfObject2-4, .swfObject2-5,
+
+.swfObject3-1, .swfObject3-2, .swfObject3-3, .swfObject3-4, .swfObject3-5, .swfObject3-6, .swfObject3-7, .swfObject3-8, .swfObject3-9,
+.swfObject3-10,
+.swfObject3-11,
+.swfObject3-12,
+
+.swfObject4-1,
+.swfObject4-2,
+.swfObject4-3,
+
+.swfObject5-1,
+.swfObject5-2,
+.swfObject5-3,
+.swfObject5-4,
+.swfObject5-5,
+.swfObject5-6,
+.swfObject5-7,
+
+.swfObject6-1,
+.swfObject6-2,
+.swfObject6-3,
+
+{
+    position:absolute;
+    height: 1000px;
+    margin-top: 15px;
+    width: 800px;
+}
+
+
+#aeeUl {
+   // visibility: hidden;
+}
+
+#anmUl{
+  visibility: hidden;
+}
+
+#ansUl{
+  visibility: hidden;
+}
+
+#preprofUl{
+  visibility: hidden;
+}
+
+#prevetUl{
+  visibility: hidden;
+}
+
+
+
+
+
+#overlay {
+ 
+    font-family: futura std;
+     color: white;
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(255,255,255, .8);
+     visibility: hidden;
+   }
+   
+   #overlay p {
+     text-align: center;
+     position: relative;
+     top: 200px;
+       
+   }
+   
+#close{
+    
+    font-size: 50px;
+    position: absolute;
+    margin-left: -50px;
+    
+}
+
+#bathroommap{
+    margin-left: 400px;
+    margin-top: 200px;
+    
+}
+   #overlay nav#close {
+     position: absolute;
+     right: 50px;
+     top: 50px;
+     width: 50px;
+     height: 55px;
+     border: 1px white solid;
+     text-align: center;
+   }
+   
+   #overlay nav#close:hover {
+     background-color: grey;
+   }
+
